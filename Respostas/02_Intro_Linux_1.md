@@ -12,11 +12,15 @@ R. Shell é um programa que permite ao usuário iteragir com o sistema operacion
 
 4. Por que é importante evitar executar o terminal como super-usuário?
 
-R. 
+R. Logando como o usuário root tem-se controle total sobre o sistema, então, executar o terminal como super-usuário corre-se o risco de algum arquivo ser movido ou editado de forma equivocada.
 
 5. Qual botão do teclado completa o que o usuário escreve no terminal, de acordo com o contexto?
 
+R. A tecla tab.
+
 6. Quais botões do teclado apresentam instruções escritas anteriormente?
+
+R. Teclas cima ou baixo, ctrl+r e inicie a digitação.
 
 7. Apresente os respectivos comandos no terminal para:
   (a) Obter mais informações sobre um comando.

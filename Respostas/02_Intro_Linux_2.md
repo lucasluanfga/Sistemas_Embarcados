@@ -8,16 +8,33 @@ Abra o terminal e digite:
 
 2. Apresente o nome de todos os arquivos e pastas na pasta 'root'.
 Abra o terminal e digite:
-  cd /    # entra no diretório raiz
-  ls      # lista todos os arquivos contidos no diretório raiz
-  cd root
-  
-  
-  
+  cd /      # entra no diretório raiz
+  ls        # lista todos os arquivos contidos no diretório raiz
+  sudo su   # troca de usuário comum para super-usuário, assim, tem-se acesso a pasta root
+  cd root   # entra na pasta root já como super-usuário
+  ls -la    # listagem com arquivos ocultos
+Após esses comandos tem-se a seguinte listagem dos arquivos da pasta root:
+  .
+  ..
+  .bash_history
+  .bashrc
+  .cache
+  .profile
 
 3. Apresente o tipo de todos os arquivos e pastas na pasta 'root'.
 
+  .               directory
+  ..              directory 
+  .bash_history   ASCII text
+  .bashrc         ASCII text
+  .cache          directory
+  .profile        ASCII text
+
 4. Apresente somente as pastas dentro da pasta 'root'.
+
+  .
+  ..
+  .cache
 
 5. Descubra em que dia da semana caiu o seu aniversário nos últimos dez anos.
 

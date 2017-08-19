@@ -41,12 +41,23 @@ Após esses comandos tem-se a seguinte listagem dos arquivos da pasta root:
 Para as questões a seguir, use a pasta no endereço https://github.com/DiogoCaetanoGarcia/Sistemas_Embarcados/raw/master/Questoes/02_Intro_Linux_arqs.zip
 
 6. Liste somente os arquivos com extensão .txt.
+Para listar apenas os arquivos .txt, abra o terminal e digite a seguinte instrução:
+
+  cd Documentos/Arqs_aula_02      # entra no diretório a ser listado
+  ls -l *.txt                     # lista todos os arquivos com a extensão .txt da pasta
 
 7. Liste somente os arquivos com extensão .png.
+Já estando na pasta "Arqs_aula_02", basta digitar a seguijnte instrução:
+
+  ls -l *.png                     # lista todos os arquivos com a extensão .png da pasta
 
 8. Liste somente os arquivos com extensão .jpg.
 
+  ls -l *.jpg                     # lista todos os arquivos com a extensão .jpg da pasta
+
 9. Liste somente os arquivos com extensão .gif.
+  
+  ls -l *.gif                     # lista todos os arquivos com a extensão .gif da pasta
 
 10. Liste somente os arquivos que contenham o nome 'cal'.
 

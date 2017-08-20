@@ -17,33 +17,39 @@ $ Ola Eu
 $ ./ola_usuario_1
 $ Digite o seu nome: Eu Mesmo
 ```
+R. Foi imoresso apenas: ola Eu
 
 (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ ./ola_usuario_1
 $ Digite o seu nome: "Eu Mesmo"
 ```
+R. Foi imoresso apenas: "ola Eu
 
 (c) Se é usado um pipe. Por exemplo:
 ```bash
 $ echo Eu | ./ola_usuario_1
 ```
+R. Foi imoresso apenas: Digite o seu nome: ola Eu
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 ```bash
 $ echo Eu Mesmo | ./ola_usuario_1
 ```
+R. Foi imoresso apenas: Digite o seu nome: ola Eu
 
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ echo "Eu Mesmo" | ./ola_usuario_1
 ```
+R. Foi imoresso apenas: Digite o seu nome: ola Eu
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 ```bash
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_1 < ola.txt
 ```
+R. Não foi impresso nada na tela
 
 4. Crie um código em C que recebe o nome do usuário como um argumento de entrada (usando as variáveis argc e *argv[]), e imprime no terminal "Ola " e o nome do usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_2':
 
@@ -58,32 +64,39 @@ $ Ola Eu
 ```bash
 $ ./ola_usuario_2 Eu Mesmo
 ```
+R.É impresso : Ola Eu
+               Ola Mesmo
 
 (b) Se o usuário insere mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ ./ola_usuario_2 "Eu Mesmo"
 ```
+R. É impresso : Ola Eu Mesmo
 
 (c) Se é usado um pipe. Por exemplo:
 ```bash
 $ echo Eu | ./ola_usuario_2
 ```
+R. Não compilou nada
 
 (d) Se é usado um pipe com mais de um nome. Por exemplo:
 ```bash
 $ echo Eu Mesmo | ./ola_usuario_2
 ```
+R. Não compilou nada
 
 (e) Se é usado um pipe com mais de um nome entre aspas duplas. Por exemplo:
 ```bash
 $ echo Eu Mesmo | ./ola_usuario_2
 ```
+R. Não compilou nada
 
 (f) Se é usado o redirecionamento de arquivo. Por exemplo:
 ```bash
 $ echo Ola mundo cruel! > ola.txt
 $ ./ola_usuario_2 < ola.txt
 ```
+R. Não compilou nada
 
 6. Crie um código em C que faz o mesmo que o código da questão 4, e em seguida imprime no terminal quantos valores de entrada foram fornecidos pelo usuário. Por exemplo, considerando que o código criado recebeu o nome de 'ola_usuario_3':
 
